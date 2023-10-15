@@ -1,0 +1,9 @@
+exec:
+  - /lib/x86_64-linux-gnu/ld-*
+  - /usr/sbin/sshd
+  - /bin/sh
+  - /bin/bash
+  - /bin/dash
+  - /usr/bin/id
+  - /usr/bin/git
+  - /usr/lib/git-core

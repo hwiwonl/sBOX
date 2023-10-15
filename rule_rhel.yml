@@ -1,0 +1,7 @@
+exec:
+  - /lib64/ld-*.so
+  - /usr/sbin/sshd
+  - /usr/bin/sh
+  - /usr/bin/bash
+  - /usr/bin/id
+  - /usr/bin/git

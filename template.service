@@ -1,0 +1,10 @@
+[Unit]
+Description=Sandbox Daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /root/sbx.py -c /root/sbx.c -r /root/rule.yml -p 22
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
